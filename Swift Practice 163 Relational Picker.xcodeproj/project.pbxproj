@@ -11,6 +11,10 @@
 		2D93481228732290009CF798 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93481128732290009CF798 /* ContentView.swift */; };
 		2D93481428732291009CF798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D93481328732291009CF798 /* Assets.xcassets */; };
 		2D93481728732291009CF798 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D93481628732291009CF798 /* Preview Assets.xcassets */; };
+		2D93481E287322DD009CF798 /* CItyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93481D287322DD009CF798 /* CItyModel.swift */; };
+		2D9348202873234F009CF798 /* CityDictrictViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93481F2873234F009CF798 /* CityDictrictViewModel.swift */; };
+		2D93482228732AFA009CF798 /* taiwan_districts.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D93482128732AFA009CF798 /* taiwan_districts.json */; };
+		2D9348242874536A009CF798 /* CItyDictrictTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9348232874536A009CF798 /* CItyDictrictTwoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		2D93481128732290009CF798 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D93481328732291009CF798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D93481628732291009CF798 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D93481D287322DD009CF798 /* CItyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CItyModel.swift; sourceTree = "<group>"; };
+		2D93481F2873234F009CF798 /* CityDictrictViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDictrictViewModel.swift; sourceTree = "<group>"; };
+		2D93482128732AFA009CF798 /* taiwan_districts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = taiwan_districts.json; sourceTree = "<group>"; };
+		2D9348232874536A009CF798 /* CItyDictrictTwoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CItyDictrictTwoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,7 @@
 		2D93480328732290009CF798 = {
 			isa = PBXGroup;
 			children = (
+				2D93482128732AFA009CF798 /* taiwan_districts.json */,
 				2D93480E28732290009CF798 /* Swift Practice 163 Relational Picker */,
 				2D93480D28732290009CF798 /* Products */,
 			);
@@ -53,6 +62,9 @@
 			children = (
 				2D93480F28732290009CF798 /* Swift_Practice_163_Relational_PickerApp.swift */,
 				2D93481128732290009CF798 /* ContentView.swift */,
+				2D93481D287322DD009CF798 /* CItyModel.swift */,
+				2D93481F2873234F009CF798 /* CityDictrictViewModel.swift */,
+				2D9348232874536A009CF798 /* CItyDictrictTwoViewModel.swift */,
 				2D93481328732291009CF798 /* Assets.xcassets */,
 				2D93481528732291009CF798 /* Preview Content */,
 			);
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D93482228732AFA009CF798 /* taiwan_districts.json in Resources */,
 				2D93481728732291009CF798 /* Preview Assets.xcassets in Resources */,
 				2D93481428732291009CF798 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9348242874536A009CF798 /* CItyDictrictTwoViewModel.swift in Sources */,
+				2D93481E287322DD009CF798 /* CItyModel.swift in Sources */,
+				2D9348202873234F009CF798 /* CityDictrictViewModel.swift in Sources */,
 				2D93481228732290009CF798 /* ContentView.swift in Sources */,
 				2D93481028732290009CF798 /* Swift_Practice_163_Relational_PickerApp.swift in Sources */,
 			);
